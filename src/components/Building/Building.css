@@ -1,0 +1,27 @@
+.building {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.form {
+  font-size: 0.9rem;
+  background-color: var(--white);
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  border: 1px solid var(--grey);
+  padding: 0.4rem;
+  width: 3rem;
+  margin: 5px;
+}
+
+.form button {
+  background-color: var(--grey);
+  padding: 0.5rem;
+}

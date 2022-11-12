@@ -1,0 +1,38 @@
+.Floor {
+  font-size: 0.9rem;
+}
+
+.Floor h5 {
+  margin: 0 1rem;
+  width: 120px;
+  text-align: end;
+}
+
+.Floor button {
+  padding: 0.5rem 0;
+  margin: 0 1.4rem;
+  width: 100px;
+  color: var(--white);
+}
+
+.Floor button.call {
+  background-color: var(--green);
+}
+
+.Floor button.waiting {
+  background-color: var(--red);
+}
+
+.Floor button.arrived {
+  border: 1px solid var(--green);
+  color: var(--green);
+}
+
+
+.cells-container .cell {
+  background-color: var(--white);
+  border: 0.5px solid var(--grey);
+  width: 7rem;
+  height: 3.5rem;
+  text-align: center;
+}
